@@ -23,7 +23,7 @@ div{
 }
 
 
-#newSquares{
+#default{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,11 +56,32 @@ div{
     border: 2px solid black;
     border-radius: 8px;
 
+    margin-right: 10px;
     margin-bottom: 5px;
     padding: 5px 10px;
 }
 
 #resetGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: auto;
+    height: auto;
+
+    font-size: 14px ;
+    background-color: white;
+    border: 2px dashed black;
+    border-radius: 8px;
+
+    
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+}
+
+#gradientMode{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,6 +101,25 @@ div{
     padding: 5px 10px;
 }
 
+#changeSquares{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: auto;
+    height: auto;
+
+    font-size: 14px ;
+    background-color: white;
+    border: 2px dashed black;
+    border-radius: 8px;
+
+    
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+}
 
 .header{
     display: flex;
@@ -87,4 +127,8 @@ div{
     align-items: center;
     
     background-color: white;
+}
+
+.gradientHover{
+
 }
